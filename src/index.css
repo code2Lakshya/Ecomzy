@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-color: #fff;
+}
+@media screen and (max-width: 800px) {
+  .cart{
+    flex-direction: column;
+  }
+  .cart div{
+    width: 100%;
+  }
+  .cart-item{
+    flex-direction: column;
+    text-align: center;
+  }
+}
